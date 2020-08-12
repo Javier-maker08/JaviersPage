@@ -1,0 +1,59 @@
+header{
+  background-color: #3fbcef;
+  width: 80%;
+  height: 100px;
+  margin: auto;
+}
+.logo{
+  background-color: #ffffff;
+  width: 90px;
+  height: 90px;
+  float: right;
+  margin-top: 5px;
+  margin-right: 25px;
+}
+nav {
+  background-color: #00ff00;
+  width: 80%;
+  height: 40px;
+  margin: auto;
+  margin-top: 10px;
+}
+nav div{
+  background-color: #006a25;
+  width: 160px;
+  height: 30px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+article{
+  background-color: #3fbcef;
+  width: 80%;
+  height: 425px;
+  margin: auto;
+  margin-top: 20px;
+}
+section div {
+  background-color: #ffffff;
+  width: 382px;
+  height: 250px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+aside{
+  background-color: #ffffff;
+  width: 260px;
+  height: 405px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+footer{
+  background-color: #00ff00;
+  width: 80%;
+  height: 40px;
+  margin: auto;
+  margin-top: 10px;
+}

@@ -1,0 +1,26 @@
+.cuadro{
+  background-color:#b7deed;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 120px;
+  border: 3px solid black;
+}
+.Huawei{
+  width: 280px;
+  height: 150px;
+  margin: 10px;
+}
+.titulo{
+  color: black;
+  font-size: 15px;
+  font-family: inherit;
+margin-top: 5px;
+margin-left: 13px;
+}
+.mensaje{
+  color: red;
+  font-size: 15px;
+margin-top: -5px;
+
+}

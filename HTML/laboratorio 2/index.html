@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<link rel="stylesheet" href="css/css.css">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Login2</title>
+  </head>
+  <body>
+    <header>
+      <a href="paginas.html"><img src="imagenes/btBack.png"></a>
+    </header>
+<div class="cajaContenido" align="center">
+
+  <div class="cajaInfo" align="center">
+    <h1>LOGIN</h1>
+    <p>Bienvenido a "LOGIN". Este es uno de los laboratorios trabajados en una parte del 2do periodo
+      en la clase de Laboratorio 2. Este proyecto funciona como un logeo o como inicio de sesión, en
+      el cual se pueden ingresar diferentes datos, en el cual si alguno de los dos es incorrecto (correo
+      o contraseña), le indique si es incorrecto, y si todo esta correcto, le dirá "Bienvenido".
+</p>
+<p>
+Datos de prueba:
+</p>
+<p>
+Correo:"gato@correo.com"
+Contraseña:"A1234"
+</p>
+<p>
+Correo:"perro@correo.com"
+Contraseña:"B1234"
+</p>
+<p>
+Correo:"tomate@correo.com"Contraseña:"C1234"
+</p>
+<p>
+Este proyecto se irá mejorando conforme se aprendan
+nuevas cosas y que sea funcional para el cliente.
+</p>
+  </div>
+
+<form class="cajaPrincipal" align="center">
+ <img class="fondo" src="imagenes/fondo.png">
+
+<div class="imagenP" align="center">
+  <img class="imgPrin" src="imagenes/Encabezado.png" alt="">
+</div>
+
+<br><br>
+<label class="txtIniciarSesion">Iniciar Sesión</label>
+<br><br>
+    <input class="cajaCorreo" id="correo" type="email" placeholder="   Correo">
+<br><br>
+    <input class="cajaContraseña" id="password" type="password" placeholder="   Contraseña">
+<br><br><br>
+
+    <button id="iniciar" class="btIS" type="button">Iniciar Sesión</button>
+
+<div class="btRC" >
+    <button id="recContra" onclick="check()" type="button"></button>
+<p class="txtRecContra">recordar datos</p>
+</div>
+
+
+<p class="CrearC">Crear una cuenta</p>
+
+<p id="mensaje" class="mensajeC"></p>
+
+</form>
+
+</div>
+<script src="js/js.js"></script>
+  </body>
+</html>

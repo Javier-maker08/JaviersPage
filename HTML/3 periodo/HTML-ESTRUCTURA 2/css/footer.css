@@ -1,0 +1,14 @@
+*{
+  margin: 0;/*QUITA EL MARGEN PREDETERMINADO*/
+  padding: 0;/*QUITA EL PADDING DETERMINADO*/
+}
+footer{
+  display:-webkit-flex;/*sirve para que los elementos se acoplen a diferentes tamaños*/
+  display: -ms-flexbox;/*todas las cajas sean flexibles*/
+  display: flex;/*que sea flexible*/
+  flex-direction: row;/*indica que todo el contenido se va de izquierda a derecha*/
+
+  width: 100%;/*ANCHO DEL CONTENIDO*/
+  height: 40px;/*ALTURA DEL CONTENIDO*/
+  background: green;/*color de fondo del elemento*/
+}

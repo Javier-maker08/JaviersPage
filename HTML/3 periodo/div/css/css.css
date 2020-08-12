@@ -1,0 +1,28 @@
+*{
+padding: 0;/*relleno o espacio interior desde el borde de un elemento hacia dentro*/
+  text-decoration: none;/*aplica efectos de subrayado, tachado, parpadeo*/
+}
+.amarillo > div{
+  display: inline-block;/*sirve para ocultar el elemento DIV*/
+}
+.amarillo{
+  width: 100%;/*ancho del DIV*/
+  height: auto;/*altura del DIV*/
+margin-top: 10px;/*margen hacia arriba*/
+}
+.rojo{
+  width: 100%;/*ancho del DIV*/
+  height: 50px;/*altura del DIV*/
+  background-color: red;/*color de relleno del DIV*/
+
+}
+.blue{
+  width: 29%;/*ancho del DIV*/
+  height: 550px;/*altura del DIV*/
+  background-color: blue;/*color de relleno del DIV*/
+}
+.green{
+  width: 70%;/*ancho del DIV*/
+  height: 550px;/*altura del DIV*/
+  background-color: green;/*color de relleno del DIV*/
+}

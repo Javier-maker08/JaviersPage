@@ -1,0 +1,81 @@
+﻿*{
+  margin: 0;/*QUITA EL MARGEN PREDETERMINADO*/
+  padding: 0;/*QUITA EL PADDING DETERMINADO*/
+}
+.section-index{
+  display: -webkit-flex;/*sirve para que los elementos se acoplen a diferentes tamaños*/
+    display: -ms-flexbox;/*todas las cajas sean flexibles*/
+    display: flex; /*que sea flexible*/
+    flex-direction: row;/*ORDENA DE IZQUIERDA A DERECHA*/
+
+  width: 90%;/*ANCHO DEL CONTENIDO*/
+  height: 500px;/*ALTURA DEL CONTENIDO*/
+  margin:auto;/*margen a partir de un elemento hacia afuera dependiendo el tamaño*/
+   background-color: #615772; /*color de fondo del elemento*/
+   justify-content: center;/*define cómo el navegador distribuye el espacio*/
+}
+.precio1{
+  width: 300px;/*ancho del elemento*/
+  height: 400px;/*altura del elemento*/
+  background-color: #fefbec;/*color de fondo del elemento*/
+  margin-top: 75px;/*margen hacia arriba*/
+
+  border-radius: 3px;/*genera que las esquinas del elemento sean redondeadas*/
+
+  display: -webkit-flex;/*sirve para que los elementos se acoplen a diferentes tamaños*/
+   display: -ms-flexbox;/*sirve para que los elementos se acoplen a diferentes tamaños*/
+   display: flex; /*tendrán un comportamiento automático dependiendo lo que defina la caja mayor*/
+  flex-direction: column; /*ordena los elementos verticalmente*/
+  text-align: center;/*coloca el texto en el centro*/
+}
+.separacion{
+  margin-left: 20px; /*margen hacia la izquierda*/
+  margin-right: 20px; /*margen hacia la derecha*/
+}
+.precio{
+font-family:serif; /*Establece una fuente tipográfica*/
+font-size: 60px; /*Establece tamaño el letra*/
+color:grey;/*coloca el color en el elemento*/
+margin-top: 10px;/*margen hacia arriba*/
+}
+.plan{
+  font-family:serif; /*Establece una fuente tipográfica*/
+  font-size: 35px; /*Establece tamaño el letra*/
+  color:grey;/*coloca el color en el elemento*/
+  margin-top: 25px;/*margen hacia arriba*/
+
+}
+.titulo{
+  font-family:serif;/*Establece una fuente tipográfica*/
+  font-size: 25px; /*Establece tamaño el letra*/
+  color:black;/*coloca el color en el elemento*/
+  margin-top: 25px;/*margen hacia arriba*/
+
+}
+.descripcion{
+  font-family:serif;/*Establece una fuente tipográfica*/
+  font-size: 15px; /*Establece tamaño el letra*/
+  color:black;/*coloca el color en el elemento*/
+  margin-top: 20px;/*margen hacia arriba*/
+  }
+  .precio1 a{
+    text-decoration: none; /*indica que el texto no tenga ningun tipo de efecto*/
+  }
+  .boton{
+    background-color: #aeeae8;/*color de fondo del elemento*/
+    margin-top: 72px;/*margen hacia arriba*/
+    padding-top: 15px;/*establece el espacio de relleno requerido en la parte superior */
+    padding-bottom: 15px;/*establece el espacio de relleno requerido en la parte inferior*/
+    border-radius: 3px;/*genera que las esquinas del elemento sean redondeadas*/
+
+    font-family:serif;/*Establece una fuente tipográfica*/
+    font-size: 25px;/*Establece tamaño el letra*/
+    color:white;/*coloca el color en el elemento*/
+  }
+
+/*LA PAGINA SE ACOPLARÁ AL TAMAÑO DE CUALQUIER DISPOSITIVO Y SERÁ RESPONSIVE*/
+@media only screen and (max-width:767px)  {
+  .section-index{
+    width: 100%;/*ancho del elemento*/
+  }
+}

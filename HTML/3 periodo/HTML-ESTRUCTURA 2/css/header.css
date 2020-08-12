@@ -1,0 +1,28 @@
+﻿*{
+  margin: 0;/*QUITA EL MARGEN PREDETERMINADO*/
+  padding: 0;/*QUITA EL PADDING DETERMINADO*/
+}
+header{
+  display:-webkit-flex;/*sirve para que los elementos se acoplen a diferentes tamaños*/
+  display: -ms-flexbox;/*todas las cajas sean flexibles*/
+  display: flex;/*Indica que sea flexible*/
+  flex-direction: column;/*indica que todo el contenido se ordenará de forma vertical*/
+
+  width: 100%;/*ANCHO DEL CONTENIDO*/
+  height: 200px;/*ALTURA DEL CONTENIDO*/
+   background-color:#f38181; /*color de fondo del elemento*/
+}
+.titulodelapagina{
+  color: white;/*coloca el color en el elemento*/
+  font-size: 30px;/*Establece tamaño el letra*/
+  margin: auto;/*establece el margen para los cuatro lados*/
+}
+.redes-sociales{
+  width: 200px;/*ANCHO DEL CONTENIDO*/
+  height: 40px;/*ALTURA DEL CONTENIDO*/
+  padding-top: 10px;/*establece el espacio de relleno requerido en la parte superior */
+  margin: auto;/*establece el margen para los cuatro lados*/
+}
+.redes-sociales img{
+  width: 35px;/*ANCHO DE LA IMAGEN*/
+}

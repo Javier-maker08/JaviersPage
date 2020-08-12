@@ -1,0 +1,27 @@
+.tabla_1 td{
+sargin: auto;
+}
+.td_1{
+background-color: #219D1B;
+width: 1000px;
+height: 100px;
+border-radius: 5px;
+}
+.td_4{
+  background-color: #DA0B0B;
+width: 240px;
+height: 99px;
+border-radius: 5px;
+}
+.td_5{
+  background-color: #F4C906;
+width: 240px;
+height: 99px;
+border-radius: 5px;
+}
+.td_6{
+  background-color: #068FF4;
+  width: 240px;
+  height: 99px;
+  border-radius: 5px;
+}

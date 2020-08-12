@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.papa{
+  width: 80%;/*ANCHO DEL CONTENIDO*/
+  height: 470px;/*ALTURA DEL CONTENIDO*/
+   background-color: white;
+margin-left: 150px;
+   margin-top: 35px;
+}
+.cuadroIzqMama{
+  width: 350px;/*ancho del DIV*/
+  height: 470px;/*altura del DIV*/
+  background-color: white;/*color de relleno del DIV*/
+
+}
+.cuadroAma{
+  width: 350px;/*ancho del DIV*/
+  height: 230px;/*altura del DIV*/
+  background-color: white;/*color de relleno del DIV*/
+
+}
+.imagenPrin{
+  width: 100%;
+  height: 100%;
+}
+.banner1{
+  width: 350px;/*ancho del DIV*/
+  height: 130px;/*altura del DIV*/
+  background-color: white;/*color de relleno del DIV*/
+  margin-top: 10px;
+}
+.IMGbanner1{
+  width: 100%;
+  height: 100%;
+}
+
+.boton1 div {
+  width: 125px;
+  height: 10px;
+margin-left: 200px;
+color: red;
+}
+
+.bt1{
+  margin-top: 25px;
+  padding-bottom: 1px;
+  border-radius: 1px;
+  flex-direction: row;
+
+  font-family: fantasy;
+  font-size: 20px;
+  color: black;
+}
+
+.bt2{
+  padding-bottom: 1px;
+  border-radius: 1px;
+  flex-direction: row;
+
+  font-family: fantasy;
+  font-size: 20px;
+  color: black;
+}
+@media only screen and (max-width:767px){
+
+}
+/*-------------AQUI EMPIEZA EL CONTENIDO DEL LADO DERECHO-----*/
+.cuadroDerMama{
+  width: 350px;/*ancho del DIV*/
+  height: 470px;/*altura del DIV*/
+  background-color: white;/*color de relleno del DIV*/
+  margin-left: 400px;
+  padding-right: 300px;
+  margin-top: -470px;
+}
+.cuadroTransi{
+  width: 650px;/*ancho del DIV*/
+  height: 230px;/*altura del DIV*/
+  background-color: white;/*color de relleno del DIV*/
+overflow: hidden;
+}
+.slider{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+.slider ul{
+  display: flex;
+  padding: 0;
+  width: 100%;
+
+  animation: cambio 10s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+.slider li{
+  width: 100%;
+  list-style: none;
+}
+.slider img{
+  width: 650px;
+  height: 230px;
+}
+@keyframes cambio {
+  0%  {margin-left: 0;}
+  20% {margin-left: 0;}
+
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+
+  75% {margin-left: -300%;}
+  100%{margin-left: -300%;}
+}
+
+.CuaTexto{
+  background-color: white;
+  width: 400px;
+  height: 210px;
+  margin-top: 10px;
+}
+.infoIMG{
+  width: 150px;
+  height: 120px;
+  margin-left: 240px;
+}
+.texto{
+display: flex;
+color: #C74500;
+}
+
+.baner2{
+  width: 170px;/*ancho del DIV*/
+  height: 215px;/*altura del DIV*/
+  background-color: green;/*color de relleno del DIV*/
+  margin-top: -215px;
+  margin-left: 480px;
+}
+.IMGbanner2{
+  width: 170px;
+  height: 215px;
+}
+.texto2{
+  float: left;
+  margin-top: -230px;
+}
