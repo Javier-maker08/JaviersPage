@@ -5,69 +5,106 @@
 }
 /*********HEADER***********************/
 header {
-background:linear-gradient(50deg,#0e3754,#245B81);
-width: 100%;
-height: 100px;
-position: fixed;
-}
-.CajaHead {
-  width: 55%;
-  height: 100px;
-  margin-left: 20px;
-  margin-top: -95px;
-  display: flex;
-}
-.logo{
-  width: 15%;
-  height: 90%;
+  width: 100%;
+  height: 60px;
 
-  animation-name: logo;
-  animation-duration: 3s;
+  background: #909BAC;
 }
-
-.CajaTitulo h1{
-  font-size: 50px;
-  margin: auto;
-  color: white;
-  align-items: center;
-  font-family: 'Playfair Display', serif;
-  cursor: default;
+.logo {
+  width: 50px;
+  margin-top: 5px;
+  margin-left: 50px;
+  float: left;
 }
-/*********************************************/
-#btn-menu{
+.logoResponsive {
+  width: 50px;
+  margin-top: 5px;
+  float: right;
   display: none;
 }
-header label{
-  display: none;
-  width: 80px;
-  height: 80px;
-  padding: 10px;
-  border-left: 1px solid white;
-  justify-content: flex-end;
-}
-header label:hover{
-  cursor: pointer;
-  background: rgba(0, 0, 0, 0.3);
-}
-.menu ul{
-  margin: 0;
+.nav {
+  width: 300px;
+  float: left;
+  margin-left: 50px;
   list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: flex-end;
+  margin-top: 12px;
+}
 
-}
-.menu li{
-
-}
-.menu li:hover{
-  background: rgba(0, 0, 0, 0.3);
-}
-.menu li a {
-  display: block;
-  padding: 40px 20px;
-  color: white;
+.bt {
+  float: left;
+  margin-right: 30px;
+  padding: 10px;
+  background: ;
   text-decoration: none;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.bt:hover {
+  color: #ffffff;
+  background-color: #7085A6;
+}
+.mas {
+  display: flex;
+  flex-direction: column;
+}
+.bt4 {
+}
+.botones4 {
+  list-style: none;
+  display: none;
+}
+.mostrar {
+  display: block;
+}
+.mas:hover {
+  background-color: #7085A6;
+}
+.botones4 a {
+  text-decoration: none;
+  margin-top: 10px;
+
+}
+
+.botones4 a li {
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  color: #ffffff;
+  text-align: center;
+}
+.botones4 a li:hover {
+  background-color: #3660AF ;
+}
+
+/*SECCION DEL MENU RESPONSIVE*/
+.cajaDeIconosResponsive {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+#iconoMenuResposive {
+  width: 35px;
+  margin-top: 10px;
+  float: left;
+  display: none;
+  margin-left: 10px;
+}
+#iconoMenuCerrar {
+  width: 25px;
+  margin-top: 10px;
+  float: right;
+  margin-right: 10px;
+}
+.none {
+  display: none;
+}
+.cajaDeIconosResponsive {
+  display: none;
 }
 /******************************************************/
 
@@ -85,10 +122,18 @@ header label:hover{
   }
 }
 /*************************************************/
+.imgPrinBan{
+  width: 100%;
+  height: auto;
+}
+.imgPrinBan img{
+  width: 100%;
+  height: auto;
+}
 section{
   width: 80%;
   height: auto;
-  padding-top: 120px;
+  padding-top: 80px;
   margin: auto;
 }
 .sectionIndex{
@@ -402,7 +447,7 @@ footer{
   height: 350px;
   margin-top: 120px;
 
-  background:linear-gradient(50deg,#0e3754,#245B81);
+  background:#393b44;
   display:-webkit-flex;/*sirve para que los elementos se acoplen a diferentes tamaños*/
   display: -ms-flexbox;/*todas las cajas sean flexibles*/
   display: flex;/*Indica que sea flexible*/
@@ -462,53 +507,49 @@ display: inline-block;
 /*********RESPONSIVE**************/
 /*********************************/
 @media only screen and (max-width:767px){
-  header{
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-  }
-  body{
-  width:100%;
-  height: auto;
-  align-content: center;
-  margin: auto;
-  }
-  header label{
-    display: block;
-    width: 60px;
-    height: 60px;
-    margin-left: 80%;
-  }
-  .btn-menu{
-    width: 60px;
-    height: 60px;
-    margin: auto;
-  }
-  .menu {
-    position: absolute;
-    background:linear-gradient(50deg,#0e3754,#245B81);
-    width: 25%;
-    margin-left: -70%;
+  .cajaDeIconosResponsive {
+      display: block;
+    }
 
-    transition: all 0.5s;
-  }
-  .menu ul{
-    flex-direction: column;
-  }
-  .menu li {
-    border-top: 1px solid white;
-  }
-  #btn-menu:checked ~ .menu {
-    margin: 0;
-  }
-.CajaTitulo {
-  width: 30%;
-  height: 50px;
-  justify-content: flex-end;
-  background-color: red;
-  color: white;
-}
+    .logo {
+      display: none;
+    }
+    .logoResponsive {
+      display: block;
+      float: right;
+    }
+    nav {
+      float: left;
+    }
+    .activarNav {
+      background-color: #16a085;
+      width: 50%;
+      height: 250px;
+    }
+
+    .nav {
+      float: none;
+      width: 100%;
+      margin-left: 0px;
+      padding-left: 10px;
+      box-sizing: border-box;
+      display: none;
+    }
+    .activarBotones {
+      display: block;
+    }
+    .bt {
+      display: block;
+      float: none;
+      margin-right: 0px;
+      padding: 20px;
+      font-size: 20px;
+      font-weight: 400;
+    }
+    #iconoMenuResposive {
+      display: block;
+      float: left;
+    }
   .sectionIndex{
      width: 100%;
      height: auto;

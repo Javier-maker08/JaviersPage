@@ -6,39 +6,43 @@
 
 
     <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+      <meta http-equiv="X-UA-Compatible" content = "ie=edge">
 
 <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
 
      <link rel="icon" href="imagenes/programas.png">
-    <title>Programas</title>
+    <title>JAVA</title>
 </head>
    <body>
      <header>
-          <!------------------------------------------------------------>
-          <input type="checkbox" id="btn-menu">
-          <label for="btn-menu"><img class="btn-menu" src="imagenes/menu.png"></label>
-          <nav class="menu" align="rigth">
-               <ul>
-                  <li><a href="inicio.html" class="boton1">Inicio</a></li>
-                  <li><a href="programas.html" class="boton2">Programas</a></li>
-                  <li><a href="paginas.html" class="boton3">Páginas</a></li>
-                  <li><a href="android.html" class="boton4">Android</a></li>
-              </ul>
-          </nav>
-          <!------------------------------------------------------------>
-          <div class="CajaHead">
-              <div class="CajaLogo">
-                    <a href="index.html"><img class="logo" align="left" src="imagenes/logo.png" /></a>
-              </div>
-              <div class="CajaTitulo">
-                    <h1 align="center">Programas</h1>
-              </div>
-          </div>
+         <img class="logo" src="imagenes/logo.png">
+         <nav id="nav" class="">
+           <div class="cajaDeIconosResponsive">
+             <img id="iconoMenuResposive" src="imagenes/menu.svg">
+             <img id="iconoMenuCerrar" class="none" src="imagenes/cerrar.svg">
+           </div>
+           <ul id="ulNav" class="nav">
+             <li><a class="bt" href="perfil.html">Perfil</a></li>
+             <li><a class="bt" href="index.html">Inicio</a></li>
+             <li id="boton4" class="bt4 mas"><a  class="bt" href="#">Proyectos</a>
+               <ul id="lisBoton4" class="botones4">
+                 <a href="paginas.html"><li>HTML</li></a>
+                 <a href="programas.html"><li>JAVA</li></a>
+                 <a href="android.html"><li>ANDROID</li></a>
+               </ul>
+             </li>
+           </ul>
+         </nav>
+         <img class="logoResponsive" src="imagenes/logo.png">
+       </header>
 
-     </header>
+       <div class="imgPrinBan">
+       <img src="imagenes/javaBAN.jpg" alt="">
+       </div>
+
     <section align="center">
 
 
@@ -150,5 +154,7 @@
       <img src="imagenes/LogoPers.png">
       </div>
       </footer>
+
+      <script src="js/js.js"></script>
   </body>
 </html>
